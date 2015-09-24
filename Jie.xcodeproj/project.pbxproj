@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4DE6B041BB3807200B76DFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE6B031BB3807200B76DFD /* AppDelegate.swift */; };
+		A4DE6B091BB3807200B76DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DE6B071BB3807200B76DFD /* Main.storyboard */; };
+		A4DE6B0B1BB3807200B76DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4DE6B0A1BB3807200B76DFD /* Assets.xcassets */; };
+		A4DE6B0E1BB3807200B76DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DE6B0C1BB3807200B76DFD /* LaunchScreen.storyboard */; };
+		A4DE6B191BB3807200B76DFD /* JieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE6B181BB3807200B76DFD /* JieTests.swift */; };
+		A4DE6B241BB3807200B76DFD /* JieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE6B231BB3807200B76DFD /* JieUITests.swift */; };
+		A4DE6B321BB381F900B76DFD /* JieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE6B311BB381F900B76DFD /* JieTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A4DE6B341BB3824A00B76DFD /* JieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE6B331BB3824A00B76DFD /* JieTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		A4DE6B361BB382E200B76DFD /* JieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE6B351BB382E200B76DFD /* JieDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A4DE6B381BB3872000B76DFD /* videos.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4DE6B371BB3872000B76DFD /* videos.plist */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4DE6B151BB3807200B76DFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DE6AF81BB3807200B76DFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DE6AFF1BB3807200B76DFD;
+			remoteInfo = Jie;
+		};
+		A4DE6B201BB3807200B76DFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4DE6AF81BB3807200B76DFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4DE6AFF1BB3807200B76DFD;
+			remoteInfo = Jie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4DE6B001BB3807200B76DFD /* Jie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DE6B031BB3807200B76DFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4DE6B081BB3807200B76DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4DE6B0A1BB3807200B76DFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4DE6B0D1BB3807200B76DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4DE6B0F1BB3807200B76DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DE6B141BB3807200B76DFD /* JieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DE6B181BB3807200B76DFD /* JieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JieTests.swift; sourceTree = "<group>"; };
+		A4DE6B1A1BB3807200B76DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DE6B1F1BB3807200B76DFD /* JieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DE6B231BB3807200B76DFD /* JieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JieUITests.swift; sourceTree = "<group>"; };
+		A4DE6B251BB3807200B76DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4DE6B311BB381F900B76DFD /* JieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JieTableViewController.swift; sourceTree = "<group>"; };
+		A4DE6B331BB3824A00B76DFD /* JieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JieTableViewCell.swift; sourceTree = "<group>"; };
+		A4DE6B351BB382E200B76DFD /* JieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JieDetailViewController.swift; sourceTree = "<group>"; };
+		A4DE6B371BB3872000B76DFD /* videos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = videos.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4DE6AFD1BB3807200B76DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE6B111BB3807200B76DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE6B1C1BB3807200B76DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4DE6AF71BB3807200B76DFD = {
+			isa = PBXGroup;
+			children = (
+				A4DE6B021BB3807200B76DFD /* Jie */,
+				A4DE6B171BB3807200B76DFD /* JieTests */,
+				A4DE6B221BB3807200B76DFD /* JieUITests */,
+				A4DE6B011BB3807200B76DFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4DE6B011BB3807200B76DFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE6B001BB3807200B76DFD /* Jie.app */,
+				A4DE6B141BB3807200B76DFD /* JieTests.xctest */,
+				A4DE6B1F1BB3807200B76DFD /* JieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4DE6B021BB3807200B76DFD /* Jie */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE6B031BB3807200B76DFD /* AppDelegate.swift */,
+				A4DE6B071BB3807200B76DFD /* Main.storyboard */,
+				A4DE6B0A1BB3807200B76DFD /* Assets.xcassets */,
+				A4DE6B0C1BB3807200B76DFD /* LaunchScreen.storyboard */,
+				A4DE6B371BB3872000B76DFD /* videos.plist */,
+				A4DE6B0F1BB3807200B76DFD /* Info.plist */,
+				A4DE6B311BB381F900B76DFD /* JieTableViewController.swift */,
+				A4DE6B331BB3824A00B76DFD /* JieTableViewCell.swift */,
+				A4DE6B351BB382E200B76DFD /* JieDetailViewController.swift */,
+			);
+			path = Jie;
+			sourceTree = "<group>";
+		};
+		A4DE6B171BB3807200B76DFD /* JieTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE6B181BB3807200B76DFD /* JieTests.swift */,
+				A4DE6B1A1BB3807200B76DFD /* Info.plist */,
+			);
+			path = JieTests;
+			sourceTree = "<group>";
+		};
+		A4DE6B221BB3807200B76DFD /* JieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4DE6B231BB3807200B76DFD /* JieUITests.swift */,
+				A4DE6B251BB3807200B76DFD /* Info.plist */,
+			);
+			path = JieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4DE6AFF1BB3807200B76DFD /* Jie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DE6B281BB3807200B76DFD /* Build configuration list for PBXNativeTarget "Jie" */;
+			buildPhases = (
+				A4DE6AFC1BB3807200B76DFD /* Sources */,
+				A4DE6AFD1BB3807200B76DFD /* Frameworks */,
+				A4DE6AFE1BB3807200B76DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jie;
+			productName = Jie;
+			productReference = A4DE6B001BB3807200B76DFD /* Jie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4DE6B131BB3807200B76DFD /* JieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DE6B2B1BB3807200B76DFD /* Build configuration list for PBXNativeTarget "JieTests" */;
+			buildPhases = (
+				A4DE6B101BB3807200B76DFD /* Sources */,
+				A4DE6B111BB3807200B76DFD /* Frameworks */,
+				A4DE6B121BB3807200B76DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4DE6B161BB3807200B76DFD /* PBXTargetDependency */,
+			);
+			name = JieTests;
+			productName = JieTests;
+			productReference = A4DE6B141BB3807200B76DFD /* JieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4DE6B1E1BB3807200B76DFD /* JieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DE6B2E1BB3807200B76DFD /* Build configuration list for PBXNativeTarget "JieUITests" */;
+			buildPhases = (
+				A4DE6B1B1BB3807200B76DFD /* Sources */,
+				A4DE6B1C1BB3807200B76DFD /* Frameworks */,
+				A4DE6B1D1BB3807200B76DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4DE6B211BB3807200B76DFD /* PBXTargetDependency */,
+			);
+			name = JieUITests;
+			productName = JieUITests;
+			productReference = A4DE6B1F1BB3807200B76DFD /* JieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4DE6AF81BB3807200B76DFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "赵飞";
+				TargetAttributes = {
+					A4DE6AFF1BB3807200B76DFD = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A4DE6B131BB3807200B76DFD = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A4DE6AFF1BB3807200B76DFD;
+					};
+					A4DE6B1E1BB3807200B76DFD = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A4DE6AFF1BB3807200B76DFD;
+					};
+				};
+			};
+			buildConfigurationList = A4DE6AFB1BB3807200B76DFD /* Build configuration list for PBXProject "Jie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4DE6AF71BB3807200B76DFD;
+			productRefGroup = A4DE6B011BB3807200B76DFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4DE6AFF1BB3807200B76DFD /* Jie */,
+				A4DE6B131BB3807200B76DFD /* JieTests */,
+				A4DE6B1E1BB3807200B76DFD /* JieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4DE6AFE1BB3807200B76DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DE6B381BB3872000B76DFD /* videos.plist in Resources */,
+				A4DE6B0E1BB3807200B76DFD /* LaunchScreen.storyboard in Resources */,
+				A4DE6B0B1BB3807200B76DFD /* Assets.xcassets in Resources */,
+				A4DE6B091BB3807200B76DFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE6B121BB3807200B76DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE6B1D1BB3807200B76DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4DE6AFC1BB3807200B76DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DE6B341BB3824A00B76DFD /* JieTableViewCell.swift in Sources */,
+				A4DE6B041BB3807200B76DFD /* AppDelegate.swift in Sources */,
+				A4DE6B321BB381F900B76DFD /* JieTableViewController.swift in Sources */,
+				A4DE6B361BB382E200B76DFD /* JieDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE6B101BB3807200B76DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DE6B191BB3807200B76DFD /* JieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DE6B1B1BB3807200B76DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DE6B241BB3807200B76DFD /* JieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4DE6B161BB3807200B76DFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DE6AFF1BB3807200B76DFD /* Jie */;
+			targetProxy = A4DE6B151BB3807200B76DFD /* PBXContainerItemProxy */;
+		};
+		A4DE6B211BB3807200B76DFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4DE6AFF1BB3807200B76DFD /* Jie */;
+			targetProxy = A4DE6B201BB3807200B76DFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4DE6B071BB3807200B76DFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4DE6B081BB3807200B76DFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4DE6B0C1BB3807200B76DFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4DE6B0D1BB3807200B76DFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4DE6B261BB3807200B76DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4DE6B271BB3807200B76DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4DE6B291BB3807200B76DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.Jie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4DE6B2A1BB3807200B76DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Jie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.Jie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4DE6B2C1BB3807200B76DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.JieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jie.app/Jie";
+			};
+			name = Debug;
+		};
+		A4DE6B2D1BB3807200B76DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.JieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jie.app/Jie";
+			};
+			name = Release;
+		};
+		A4DE6B2F1BB3807200B76DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.JieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Jie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A4DE6B301BB3807200B76DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.JieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Jie;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4DE6AFB1BB3807200B76DFD /* Build configuration list for PBXProject "Jie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DE6B261BB3807200B76DFD /* Debug */,
+				A4DE6B271BB3807200B76DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DE6B281BB3807200B76DFD /* Build configuration list for PBXNativeTarget "Jie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DE6B291BB3807200B76DFD /* Debug */,
+				A4DE6B2A1BB3807200B76DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4DE6B2B1BB3807200B76DFD /* Build configuration list for PBXNativeTarget "JieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DE6B2C1BB3807200B76DFD /* Debug */,
+				A4DE6B2D1BB3807200B76DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4DE6B2E1BB3807200B76DFD /* Build configuration list for PBXNativeTarget "JieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DE6B2F1BB3807200B76DFD /* Debug */,
+				A4DE6B301BB3807200B76DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4DE6AF81BB3807200B76DFD /* Project object */;
+}
